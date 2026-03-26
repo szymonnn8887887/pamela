@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dyrektorka Kanapek</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(180deg, #1a1a1a, #300000, #000);
+            color: white;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1, h2 {
+            text-shadow: 0 0 10px red;
+        }
+
+        .hero {
+            background: rgba(0,0,0,0.7);
+        }
+
+        .card {
+            background: rgba(0,0,0,0.6);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 600px;
+            box-shadow: 0 0 25px crimson;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid red;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .recipe {
+            background: #111;
+        }
+
+        ul {
+            text-align: left;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: crimson;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 0 10px red;
+        }
+
+        .btn:hover {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+<!-- SEKCJA 1 -->
+<section class="hero">
+    <div class="card">
+        <h1>👻 Dyrektorka Kanapek 👻</h1>
+
+        <!-- TU ZDJĘCIE -->
+        <img src="oar2.jpg" alt="Dyrektorka">
+
+        <p>Najstraszniejsza mistrzyni kanapek na świecie... 🥪💀</p>
+
+        <a href="#przepis">
+            <button class="btn">Zobacz przepis ↓</button>
+        </a>
+    </div>
+</section>
+
+<!-- SEKCJA 2 -->
+<section id="przepis" class="recipe">
+    <div class="card">
+        <h2>🔥 Najlepszy przepis na kanapki 🔥</h2>
+
+        <h3>Składniki:</h3>
+        <ul>
+            <li>🍞 Chleb (najlepiej świeży)</li>
+            <li>🧈 Masło</li>
+            <li>🧀 Ser</li>
+            <li>🥓 Szynka</li>
+            <li>🥒 Ogórek</li>
+            <li>🍅 Pomidor</li>
+            <li>🧂 Szczypta tajemnicy...</li>
+        </ul>
+
+        <h3>Przygotowanie:</h3>
+        <ul>
+            <li>1. Posmaruj chleb masłem 🧈</li>
+            <li>2. Dodaj ser i szynkę 🧀🥓</li>
+            <li>3. Dorzuć warzywa 🥒🍅</li>
+            <li>4. Zamknij kanapkę i... BOOM 💥</li>
+            <li>5. Zjedz zanim pamela ukradnie
+        </ul>
+
+        <a href="#">
+            <button class="btn">Powrót na górę ↑</button>
+        </a>
+    </div>
+</section>
+
+</body>
+</html>
